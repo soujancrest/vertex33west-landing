@@ -1,0 +1,393 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+@font-face {
+  font-family: "DINpro-light";
+  src: url("/assets/Font/DINPro-CondensedLight.ttf");
+}
+@font-face {
+  font-family: "DINpro-regular";
+  src: url("/assets/Font/DINPro-CondensedRegular.ttf");
+}
+
+body {
+  font-family: "DINpro-light";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DINpro-regular";
+}
+a {
+  text-decoration: none !important;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+header .logo img {
+  height: 13vh;
+  padding: 1rem 0;
+}
+
+.banner {
+  background-color: #19243b;
+  align-self: center;
+  padding: 5rem 0 4rem 0;
+}
+
+.img-side {
+  height: 80vh;
+  background-image: url("/assets/images/banner-img.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-side .logo {
+  position: relative;
+  top: 32%;
+  /* left: 30%; */
+  padding-left: 30%;
+}
+
+.img-side .logo img {
+  width: 15%;
+}
+
+.banner .text {
+  color: #eac677;
+  top: 35%;
+  position: relative;
+  /* left: 32%; */
+  padding-left: 30%;
+}
+
+.banner .text h1 {
+  font-size: 1.5rem;
+}
+
+.form-side {
+  background-color: #f7f7f7;
+  /* height: 80vh; */
+  border-radius: 2rem;
+  padding: 0 4rem 4rem 4rem;
+}
+
+.form-side .form-text h2 {
+  color: #eac677;
+  font-weight: bold;
+}
+
+.form-text {
+  color: #707070;
+}
+
+.form-side .form-exp {
+  text-align: right;
+}
+.form-side .form-exp img {
+  width: 12vh;
+  margin: 2rem -7rem 0 0;
+}
+
+.form-side label {
+  font-size: 0.825em;
+  color: #707070;
+}
+
+.form-side input[type="text"],
+.form-side select,
+.form-side input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.form-side input[type="submit"] {
+  background-color: #19243b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1rem 0 0 0;
+}
+
+.form-side input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.overview {
+  padding: 3rem 0;
+}
+
+.overview-text {
+  color: #19243b;
+  padding: 0.5rem 0;
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+.overview-text span {
+  font-weight: bold;
+}
+
+.overview .border-right {
+  border-right: 2px solid #707070;
+}
+
+.sec-3,
+.sec-4 {
+  background-color: #19243b;
+  margin-bottom: 5rem;
+}
+.sec-3-img-col {
+  padding-left: 0rem !important;
+}
+
+.sec-3-text {
+  padding: 10rem 14rem 10rem 5rem;
+  position: absolute;
+}
+
+.sec-3 h3 {
+  color: #eac677;
+  font-size: 2.5rem;
+}
+
+.sec-3 p {
+  color: #ffffff;
+}
+
+.sec-3-lines img {
+  width: 10%;
+  position: relative;
+  top: 27.5rem;
+  left: 48rem;
+}
+.sec-4-text {
+  text-align: end;
+  padding: 11rem 6rem 10rem 12rem;
+}
+
+.sec-4 h3 {
+  color: #eac677;
+  font-size: 2.5rem;
+}
+
+.sec-4 p {
+  color: #ffffff;
+}
+.sec-3-lines {
+  margin-top: -7rem;
+}
+.sec-4-lines img {
+  width: 10%;
+  margin-top: -7.2rem;
+}
+.sec-4-img-col {
+  padding-right: 0 !important;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  color: #eac677;
+  text-align: center;
+  margin: 0;
+}
+.amenities-sec {
+  padding-bottom: 3rem;
+}
+.amenities-sec .nav {
+  padding: 2rem 0 3rem 0;
+  justify-content: center;
+}
+.amenities-sec img {
+  width: 50%;
+  padding-bottom: 1rem;
+}
+.amenities-sec .icon {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.plans-sec .container {
+  text-align: center;
+}
+.plans-sec #pills-masterplan img {
+  width: 50%;
+}
+.plans-sec .nav {
+  padding: 2rem 0;
+  justify-content: center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #19243b !important;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+  padding: 15px 80px;
+  color: #19243b;
+}
+.nav-pills .nav-link:hover {
+  color: #19243b;
+}
+.floorplans-img img {
+  border: 1px solid #19243b;
+  padding: 1rem;
+}
+/* Brochure Section Start */
+.brochure-sec {
+  padding: 5rem 0;
+}
+.brochure-sec .brochure {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.brochure-sec .button {
+  display: flex;
+  align-items: center;
+}
+.brochure-sec a {
+  border: 1px solid #19243b;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  background-color: #19243b;
+  border-radius: 10px;
+}
+.brochure-sec a:hover {
+  color: #19243b;
+  background-color: #ffffff;
+}
+/* Brochure Section End */
+
+/* Footer Starts*/
+footer {
+  background-color: #19243b;
+  padding: 4rem 0 3rem 0;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+.address,
+.email,
+.phone {
+  display: flex;
+}
+.address img,
+.email img,
+.phone img {
+  width: 50%;
+}
+footer span {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+.address-text,
+.email-address,
+.phone-number {
+  align-self: center;
+}
+footer li,
+.address,
+.email,
+.phone {
+  margin-bottom: 1rem !important;
+}
+
+/* Mobile below 620px */
+@media screen and (max-width: 620px) {
+  .img-side {
+    height: 65vh;
+  }
+  .img-side .logo {
+    margin-left: -6% !important;
+  }
+  .img-side .logo img {
+    width: 30%;
+  }
+  .banner .text {
+    left: -8% !important;
+  }
+  .banner .text h1 {
+    font-size: 1.3rem;
+  }
+  .overview-text {
+    margin: 0rem 0rem 1rem 0rem;
+  }
+  .overview-text h3 {
+    font-size: 1.2rem;
+  }
+  .overview .next-line h3 {
+    padding: 0rem 1rem;
+  }
+  .heading h1 {
+    font-size: 3rem;
+  }
+  .form-side .form-exp img {
+    margin: 2rem -5.5rem 0 0 !important;
+  }
+  .sec-3-text {
+    position: relative;
+    padding: 3rem 3rem 0rem 2rem;
+  }
+  .sec-3-lines img {
+    left: 22rem;
+    width: 15%;
+    top: 0;
+  }
+  .sec-3-img-col {
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+  .sec-4-text {
+    padding: 3rem 1rem 0rem 3rem;
+  }
+  .sec-4-lines img {
+    left: 22rem;
+    width: 15%;
+    top: 0;
+  }
+  #pills-tabContent p {
+    font-size: 0.8rem;
+  }
+  .amenities-sec .icon {
+    padding-bottom: 1rem;
+  }
+  .nav-pills .nav-link {
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  }
+  .plans-sec #pills-masterplan img {
+    width: 100%;
+  }
+  .brochure-sec .brochure {
+    display: block;
+  }
+  .brochure-sec .button {
+    display: block;
+    text-align: center;
+    margin: 2rem 0 0 0;
+  }
+  footer .logo img {
+    width: 40%;
+  }
+  .contact {
+    margin-top: 3rem;
+  }
+}

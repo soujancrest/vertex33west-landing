@@ -131,6 +131,10 @@ header .logo img {
   background-color: #45a049;
 }
 
+select option {
+  color: #00000;
+}
+
 .overview {
   padding: 3rem 0;
 }
@@ -349,7 +353,7 @@ footer li,
     padding: 3rem 3rem 0rem 2rem;
   }
   .sec-3-lines img {
-    left: 22rem;
+    left: 21rem;
     width: 15%;
     top: 0;
   }
@@ -371,7 +375,7 @@ footer li,
     padding-bottom: 1rem;
   }
   .nav-pills .nav-link {
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    padding: 10px 15px;
   }
   .plans-sec #pills-masterplan img {
     width: 100%;

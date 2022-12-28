@@ -255,6 +255,22 @@ select option {
   border: 1px solid #19243b;
   padding: 1rem;
 }
+/* Location Section Start */
+.location-sec {
+  padding: 5rem 0 0 0;
+}
+.location-sec .heading {
+  padding-bottom: 2rem;
+}
+.location-sec .heading p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.location-imgs {
+  display: flex;
+}
+/* Location Section End */
 /* Brochure Section Start */
 .brochure-sec {
   padding: 5rem 0;
@@ -380,6 +396,25 @@ footer li,
   .plans-sec #pills-masterplan img {
     width: 100%;
   }
+  /* Location Section Start */
+  .location-sec {
+    padding: 5rem 0 0 0;
+  }
+  .location-sec .heading {
+    padding-bottom: 0;
+  }
+  .location-sec .heading p {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 1rem 0;
+  }
+  .location-imgs {
+    display: block;
+  }
+  .location-map {
+    margin-top: 2rem;
+  }
+  /* Location Section End */
   .brochure-sec .brochure {
     display: block;
   }

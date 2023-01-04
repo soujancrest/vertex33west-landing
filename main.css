@@ -213,7 +213,9 @@ select option {
   margin: 0;
 }
 .amenities-sec {
-  padding-bottom: 3rem;
+  padding: 2rem 0;
+  background-color: #f7f7f7;
+  margin: 2rem 0;
 }
 .amenities-sec .nav {
   padding: 2rem 0 3rem 0;
@@ -255,6 +257,20 @@ select option {
   border: 1px solid #19243b;
   padding: 1rem;
 }
+
+/* Gallery Starts */
+#owl-demo .item {
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+/* Gallery end */
+
 /* Location Section Start */
 .location-sec {
   padding: 5rem 0 0 0;
@@ -271,6 +287,7 @@ select option {
   display: flex;
 }
 /* Location Section End */
+
 /* Brochure Section Start */
 .brochure-sec {
   padding: 5rem 0;
@@ -366,10 +383,10 @@ footer li,
   }
   .sec-3-text {
     position: relative;
-    padding: 3rem 3rem 0rem 2rem;
+    padding: 3rem 3rem 0rem 1rem;
   }
   .sec-3-lines img {
-    left: 19rem;
+    left: 85%;
     width: 15%;
     top: 0;
   }
@@ -392,6 +409,7 @@ footer li,
   }
   .nav-pills .nav-link {
     padding: 10px 10px;
+    font-size: 0.8rem;
   }
   .plans-sec #pills-masterplan img {
     width: 100%;
@@ -425,6 +443,26 @@ footer li,
   }
   footer .logo img {
     width: 40%;
+  }
+  .contact {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 621px) and (max-width: 1919px) {
+  .sec-3-lines img {
+    left: 90%;
+    top: 0;
+  }
+  .sec-3-text {
+    position: relative;
+    padding: 3rem 6rem 0rem 1rem;
+  }
+  .sec-4-text {
+    padding: 3rem 1rem 0rem 8rem;
+  }
+  .plans-sec #pills-masterplan img {
+    width: 100%;
   }
   .contact {
     margin-top: 3rem;

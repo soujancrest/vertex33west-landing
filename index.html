@@ -4,9 +4,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertex 33 West</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/assets/images/favicon_io/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/assets/images/favicon_io/android-chrome-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/images/favicon_io/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/assets/images/favicon.ico" />
+    <meta name="theme-color" content="#ffffff" />
     <!-- Manual CSS -->
     <link rel="stylesheet" href="/main.css" />
     <!-- Manual CSS end -->
+
+    <!-- Manual Js -->
+    <script src="/main.js"></script>
+    <!-- Manual Js End -->
+
     <!-- bootstrap -->
     <!-- CSS only -->
     <link
@@ -22,6 +101,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- bootstrap end -->
+
     <!-- Fancy Box Start -->
     <link
       rel="stylesheet"
@@ -29,6 +109,17 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <!-- Fancy Box End -->
+
+    <!-- owl-carousel -->
+    <!-- Basic stylesheet -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css" />
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css" />
+    <!-- You can use latest version of jQuery  -->
+    <script src="jquery-1.9.1.min.js"></script>
+    <!-- Include js plugin -->
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+    <!-- owl-carousel end-->
   </head>
   <body>
     <header>
@@ -109,28 +200,24 @@
         <div class="row">
           <div class="col-lg-4 col-4">
             <div class="overview-text border-right">
-              <h3 class="d-none d-sm-block"><span>2 & 3 </span>BHK TYPES</h3>
-              <h3 class="d-block d-sm-none">
-                <span>2 & 3 </span><br />BHK TYPES
-              </h3>
+              <h3 class="d-none d-xl-block"><span>2 & 3 </span>BHK TYPES</h3>
+              <h3 class="d-xl-none"><span>2 & 3 </span><br />BHK TYPES</h3>
             </div>
           </div>
           <div class="col-lg-5 col-4">
             <div class="overview-text border-right">
-              <h3 class="d-none d-sm-block">
+              <h3 class="d-none d-xl-block">
                 <span>40,000 SFT </span>CLUBHOUSE
               </h3>
-              <h3 class="d-block d-sm-none">
-                <span>40,000 SFT </span><br />CLUBHOUSE
-              </h3>
+              <h3 class="d-xl-none"><span>40,000 SFT </span><br />CLUBHOUSE</h3>
             </div>
           </div>
           <div class="col-lg-3 col-4">
             <div class="overview-text">
-              <h3 class="d-none d-sm-block">
+              <h3 class="d-none d-xl-block">
                 <span>1,360 - 2,080 </span>SFT RANGE
               </h3>
-              <h3 class="d-block d-sm-none">
+              <h3 class="d-xl-none">
                 <span>1,360 - 2,080 </span><br />SFT RANGE
               </h3>
             </div>
@@ -227,7 +314,7 @@
           </ul>
           <div class="tab-content" id="pills-tabContent">
             <div
-              class="tab-pane fade"
+              class="tab-pane fade show active"
               id="pills-od-amenities"
               role="tabpanel"
               aria-labelledby="pills-od-amenities-tab"
@@ -349,7 +436,7 @@
               </div>
             </div>
             <div
-              class="tab-pane fade show active"
+              class="tab-pane fade"
               id="pills-ch-amenities"
               role="tabpanel"
               aria-labelledby="pills-ch-amenities-tab"
@@ -564,7 +651,51 @@
         </div>
       </div>
     </section>
-    <section class="gallery-sec"></section>
+    <!-- <section class="gallery-sec">
+      <div class="container">
+        <div class="heading">
+          <h1>GALLERY</h1>
+        </div>
+      </div>
+      <div id="owl-demo" class="owl-carousel owl-theme">
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+        <div>
+          <img src="/assets/images/Location-Image.jpg" alt="" />
+        </div>
+      </div>
+    </section> -->
     <section class="location-sec">
       <div class="container">
         <div class="heading">

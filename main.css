@@ -180,7 +180,7 @@ select option {
   width: 10%;
   position: relative;
   top: 27.5rem;
-  left: 90%;
+  float: right;
 }
 .sec-4-text {
   text-align: end;
@@ -386,7 +386,6 @@ footer li,
     padding: 3rem 3rem 0rem 1rem;
   }
   .sec-3-lines img {
-    left: 85%;
     width: 15%;
     top: 0;
   }
@@ -450,8 +449,10 @@ footer li,
 }
 
 @media screen and (min-width: 621px) and (max-width: 1400px) {
+  .img-side {
+    height: 90vh;
+  }
   .sec-3-lines img {
-    left: 90%;
     top: 0;
   }
   .sec-3-text {
@@ -466,5 +467,14 @@ footer li,
   }
   .contact {
     margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .sec-3,
+  .sec-4 {
+    padding: 0 25%;
+  }
+  .location-imgs {
+    padding: 0 25%;
   }
 }

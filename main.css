@@ -180,7 +180,7 @@ select option {
   width: 10%;
   position: relative;
   top: 27.5rem;
-  left: 48rem;
+  left: 90%;
 }
 .sec-4-text {
   text-align: end;
@@ -449,7 +449,7 @@ footer li,
   }
 }
 
-@media screen and (min-width: 621px) and (max-width: 1919px) {
+@media screen and (min-width: 621px) and (max-width: 1400px) {
   .sec-3-lines img {
     left: 90%;
     top: 0;
